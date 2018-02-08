@@ -1,6 +1,6 @@
 {
   "name": "entity-host",
-  "version": "0.1.0-alpha1",
+  "version": "0.1.0-alpha2",
   "description": "Entity to manage host.",
   "main": "lib/index.js",
   "scripts": {
