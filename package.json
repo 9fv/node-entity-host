@@ -1,7 +1,7 @@
 {
   "name": "entity-host",
   "version": "0.1.0-alpha2",
-  "description": "Entity to manage host.",
+  "description": "An entity to manage host including a prior validation (IPv4, IPv6 or hostname) during the instantiation.",
   "main": "lib/index.js",
   "scripts": {
     "test": "nyc mocha",
