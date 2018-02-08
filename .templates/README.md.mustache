@@ -54,19 +54,24 @@
 
 ## <a name="synopsis"> Synopsis
 
-Entity to manage host.
+An entity to manage host with a validation (IPv4, IPv6 or hostname) during the instantiation.
 
 ## <a name="usage"> Usage
 
 ```javascript
 
+const {HostEntity} = require('entity-host');
 
+let MyHost1 = HostEntity('.myfakehostname');
+# > throw an {HostEntityError}
 
+let MyHost2 = HostEntity('172.17.0.2');
+# > ok !
 ```
 
 ## <a name="installation"> Installation
 
-    npm install host-validator
+    npm install entity-host
 
 ## <a name="api-reference"> API Reference
 
@@ -82,7 +87,7 @@ Please refer to [API documentation](docs/API.md).
 
 ### <a name="compatibility_node"> Node
 
-Tested using [Node v9.4.0](https://nodejs.org/dist/v9.4.0/docs/api/).
+Tested using [Node v9.5.0](https://nodejs.org/dist/v9.5.0/docs/api/).
 
 ### <a name="compatibility_browser"> Browser
 
@@ -106,27 +111,10 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="credits"> Credits
 
-Thanks to:
-
-* [Daniel](https://stackoverflow.com/users/901249/daniel) for the useful regular expressions. See his [Stackoverflow answer](https://stackoverflow.com/a/9221063)
-about how to [validate IPv4, IPv6 and hostname](https://stackoverflow.com/questions/9208814/validate-ipv4-ipv6-and-hostname).
-
 
 ## <a name="history"> History
 
-### v0.1.0-beta1 (2018-02-02)
-
-* Fix errors and update documentation (API, README).
-* Improve code coverage.
-* Remove extended class to use with `{Promise}` (in the future, promisified host-validator will be included in another package).
-
-### v0.1.0-alpha2 (2018-02-02)
-
-* Fix errors and update documentation (API, README).
-* Improve code coverage.
-
-
-### v0.1.0-alpha1 (2018-02-02)
+### v0.1.0-alpha1 (2018-02-08)
 
 Initial version.
 
