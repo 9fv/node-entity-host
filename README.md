@@ -116,6 +116,10 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="history"> History
 
+### v0.1.0 (2018-02-08)
+
+* [Update dependencies to enable Greenkeeper](https://github.com/9fv/node-entity-host/pull/1).
+
 ### v0.1.0-alpha1 (2018-02-08)
 
 Initial version.
