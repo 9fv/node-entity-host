@@ -4,7 +4,7 @@
   },
   "github": {
     "USER_NAME": "9fv",
-    "REPO_NAME": "node-host-validator"
+    "REPO_NAME": "node-entity-host"
   },
   "sources": {
     "path": "lib/",
