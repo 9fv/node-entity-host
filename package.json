@@ -1,6 +1,6 @@
 {
   "name": "entity-host",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An entity to manage host including a prior validation (IPv4, IPv6 or hostname) during the instantiation.",
   "main": "lib/index.js",
   "scripts": {
@@ -58,7 +58,7 @@
     "should": "^13.2.1"
   },
   "dependencies": {
-    "host-validator": "0.1.0-beta2",
+    "host-validator": "^0.1.0",
     "lodash": "^4.17.4"
   }
 }
