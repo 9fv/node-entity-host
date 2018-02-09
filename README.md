@@ -2,27 +2,27 @@
 [npm-badge-url]: https://www.npmjs.com/package/entity-host
 [npm-downloads-badge]: https://img.shields.io/npm/dt/entity-host.svg
 [npm-downloads-url]: https://npmjs.org/package/entity-host
-[travis-badge]: https://img.shields.io/travis/9fv/node-host-validator/master.svg?label=TravisCI
-[travis-badge-url]: https://travis-ci.org/9fv/node-host-validator
-[circle-badge]: https://circleci.com/gh/9fv/node-host-validator/tree/master.svg?style=svg&circle-token=
-[circle-badge-url]: https://circleci.com/gh/9fv/node-host-validator/tree/master
-[coveralls-badge]: https://coveralls.io/repos/github/9fv/node-host-validator/badge.svg?branch=master
-[coveralls-badge-url]: https://coveralls.io/github/9fv/node-host-validator?branch=master
-[codeclimate-badge]: https://img.shields.io/codeclimate/github/9fv/node-host-validator.svg
-[codeclimate-badge-url]: https://codeclimate.com/github/9fv/node-host-validator
-[ember-observer-badge]: http://emberobserver.com/badges/node-host-validator.svg
-[ember-observer-badge-url]: http://emberobserver.com/addons/node-host-validator
+[travis-badge]: https://img.shields.io/travis/9fv/node-entity-host/master.svg?label=TravisCI
+[travis-badge-url]: https://travis-ci.org/9fv/node-entity-host
+[circle-badge]: https://circleci.com/gh/9fv/node-entity-host/tree/master.svg?style=svg&circle-token=
+[circle-badge-url]: https://circleci.com/gh/9fv/node-entity-host/tree/master
+[coveralls-badge]: https://coveralls.io/repos/github/9fv/node-entity-host/badge.svg?branch=master
+[coveralls-badge-url]: https://coveralls.io/github/9fv/node-entity-host?branch=master
+[codeclimate-badge]: https://img.shields.io/codeclimate/github/9fv/node-entity-host.svg
+[codeclimate-badge-url]: https://codeclimate.com/github/9fv/node-entity-host
+[ember-observer-badge]: http://emberobserver.com/badges/node-entity-host.svg
+[ember-observer-badge-url]: http://emberobserver.com/addons/node-entity-host
 [license-badge]: https://img.shields.io/npm/l/entity-host.svg
 [license-badge-url]: LICENSE.md
-[dependencies-badge]: https://img.shields.io/david/9fv/node-host-validator.svg
-[dependencies-badge-url]: https://david-dm.org/9fv/node-host-validator
-[devDependencies-badge]: https://img.shields.io/david/dev/9fv/node-host-validator.svg
-[devDependencies-badge-url]: https://david-dm.org/9fv/node-host-validator#info=devDependencies
-[greenkeeper-badge]: https://badges.greenkeeper.io/9fv/node-host-validator.svg
+[dependencies-badge]: https://img.shields.io/david/9fv/node-entity-host.svg
+[dependencies-badge-url]: https://david-dm.org/9fv/node-entity-host
+[devDependencies-badge]: https://img.shields.io/david/dev/9fv/node-entity-host.svg
+[devDependencies-badge-url]: https://david-dm.org/9fv/node-entity-host#info=devDependencies
+[greenkeeper-badge]: https://badges.greenkeeper.io/9fv/node-entity-host.svg
 [greenkeeper-badge-url]: https://greenkeeper.io/
 
 
-node-host-validator
+node-entity-host
 ====================
 
 [![Latest NPM release][npm-badge]][npm-badge-url]
@@ -113,16 +113,9 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 * [node-host-validator](https://github.com/9fv/node-host-validator)
 
-
 ## <a name="history"> History
 
-### v0.1.0 (2018-02-08)
-
-* [Update dependencies to enable Greenkeeper](https://github.com/9fv/node-entity-host/pull/1).
-
-### v0.1.0-alpha1 (2018-02-08)
-
-Initial version.
+Please refer to [the changelog file](docs/CHANGELOG.md).
 
 ## <a name="license"> License
 
